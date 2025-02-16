@@ -1,0 +1,35 @@
+./sloppySim 10 10 10 100 true true
+Settings:
+  Number of Threads: 10
+  Sloppiness: 10
+  Work Time: 10 ms
+  Work Iterations: 100
+  CPU Bound: true
+Final Global Counter: 1000
+
+./sloppySim 40 10 10 100 true true
+Settings:
+  Number of Threads: 40
+  Sloppiness: 10
+  Work Time: 10 ms
+  Work Iterations: 100
+  CPU Bound: true
+Final Global Counter: 4000
+
+./sloppySim 10 10 10 100 false true
+Settings:
+  Number of Threads: 10
+  Sloppiness: 10
+  Work Time: 10 ms
+  Work Iterations: 100
+  CPU Bound: false
+Final Global Counter: 1000
+
+./sloppySim 40 10 10 100 false true
+Settings:
+  Number of Threads: 40
+  Sloppiness: 10
+  Work Time: 10 ms
+  Work Iterations: 100
+  CPU Bound: false
+Final Global Counter: 4000

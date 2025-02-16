@@ -1,0 +1,12 @@
+a. How to compile and run your code
+call the makefile with "make"
+run the program using "./mapper (input.txt) (output.txt)
+
+b. Describing your approach
+I used the hashmap prompt (#2) in order to complete the assignment.
+
+c. Describing your testing
+I tested the program using the sample txt files provides.
+
+d. Categorize your performance on reasonable input
+The program gives the expected result on a reasonable input.
